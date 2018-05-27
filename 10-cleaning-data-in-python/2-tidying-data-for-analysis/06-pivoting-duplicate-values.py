@@ -36,3 +36,4 @@ print(airquality_pivot.head())
 
 # Print the head of airquality
 print(airquality.head())
+
