@@ -17,8 +17,6 @@ INSTRUCTIONS
 '''
 # Import pandas
 import pandas as pd
-
-# Read in the data file: df
 df = pd.read_csv('data.csv')
 
 # Print the output of df.head()
@@ -26,3 +24,5 @@ print(df.head())
 
 # Read in the data file with header=None: df_headers
 df_headers = pd.read_csv('data.csv', header=None)
+#for calling f_headers.head() 
+print(df_headers.head())
